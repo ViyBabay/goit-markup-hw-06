@@ -929,6 +929,7 @@ height: 294px; */
     color: var(--secondary-text-color);
     text-align: center;
     justify-content: center;
+    margin-top: 20px;
     margin-left: 9px;
 }
 
