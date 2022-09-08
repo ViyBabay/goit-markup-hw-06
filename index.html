@@ -411,17 +411,19 @@
                         <use href="./images/icons.svg#icon-emailmodal"></use>
                     </svg>
                 </div>
-                <div class="modal-group">
+                <div class="modal-group txt">
                     <label class="modal-label" for="comment">Коментар</label>
                     <textarea class="modal-txtarea" name="coment" id="comment" placeholder="Введіть текст"></textarea>
                 </div>
                 <div class="modal-checked">
-                    <input class="check-hide" type="checkbox" name="user-agreement">
-                    <span class="checkbox"><svg width="" height="">
-                            <use href=""></use>
-                        </svg></span>
-                    <label for="agreement" class="agreement">Погоджуюся з розсилкою та приймаю</label>
-                    <a href="#" class="check-link"> Умови договору</a>
+                    <input class="check-hide" id="hide" type="checkbox" name="hide" checked>
+                    <label class="agreement" for="hide">
+                        <svg class="check-icon" width="16" height="15">
+                            <use href="./images/icons.svg#icon-vector"></use>
+                        </svg>
+                        <span class="agree-txt">Погоджуюся з розсилкою та приймаю</span></label>
+                    <a href="#" class="check-link">Умови договору</a>
+
                 </div>
                 <button type="submit" class="btn-submit">Відправити</button>
             </form>
