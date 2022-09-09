@@ -752,7 +752,15 @@ ul {
 }
 
 .close-icon {
-    fill: var(--main-text-color)
+    fill: var(--main-text-color);
+    /* transition-property: fill;
+    transition-duration: var(--main-trans-duration);
+    transition-timing-function: var(--cubic); */
+    transition: fill var(--main-trans-duration) var(--cubic);
+}
+
+.close-icon:hover, .close-icon:focus {
+    fill: var(--accent-color);
 }
 
 .close-button {
